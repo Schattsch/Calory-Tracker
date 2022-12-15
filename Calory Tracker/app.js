@@ -49,7 +49,7 @@ const UICtrl = (function(){
     });
 
             // insert list items
-            document.quertySelector("#item-list").innerHTML = html;
+            document.quertySelector(UISelectors.itemList).innerHTML = html;
 
         }
     }
